@@ -16,7 +16,7 @@
 
     <SearchView
         android:layout_width="match_parent"
-        android:queryHint="Search your club"
+        android:queryHint="Search your club man"
         android:layout_height="wrap_content"
         android:id="@+id/searchView" />
     
