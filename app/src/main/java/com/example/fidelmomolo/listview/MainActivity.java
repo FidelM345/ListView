@@ -66,13 +66,13 @@ public class MainActivity extends AppCompatActivity {
      //  searchView=(SearchView)findViewById(R.id.searchView);
 
         //ListAdapter man=new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,items);
-         man=new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,items);
+      //   man=new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,items);
 
          listView=(ListView) findViewById(R.id.list);
 
-        // ListAdapter lady=new CustomAdapter(this,items,description,imgid);
+         ListAdapter lady=new CustomAdapter(this,items,description,imgid);
 
-         listView.setAdapter(man);
+         listView.setAdapter(lady);
 
 
        /* searchView.setOnQueryTextListener(
@@ -111,14 +111,13 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-           //     int item=parent.getPositionForView(view);
-
-
-           //     Toast.makeText(MainActivity.this, ""+item, Toast.LENGTH_SHORT).show();
+           //
             }
         });
 
 
+
+        //     Toast.makeText(MainActivity.this, ""+item, Toast.LENGTH_SHORT).show();
 
     }
 
